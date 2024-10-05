@@ -1,6 +1,6 @@
 # PostKeeper App
 
-The PostKeeper app features an image gallery with unique functionality for saving images. Each image has a side icon, allowing users to save their favorite images with a single click. Saved images can be accessed via the "Saved Posts" button conveniently located in the navbar, while a reset button allows users to unsave all images at once.
+The app is powered by a custom context called PostContext, encapsulated within the postContext.js file. This context provides functionality for adding and resetting saved posts, maintaining consistency with the given output behavior. A custom hook is also implemented to simplify access to the context across various components, minimizing redundancy by eliminating the need to repeatedly import and use the context directly.
 
 ## Key Features:
 
